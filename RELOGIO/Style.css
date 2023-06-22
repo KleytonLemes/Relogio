@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {    
+    font-family: 'Orbitron', sans-serif;
+
+    background: url(https://img.freepik.com/fotos-gratis/fundo-de-estudio-de-parede-de-concreto-escuro-vazio-e-perspectiva-de-piso-com-displays-de-luz-suave-azul_1258-108916.jpg?size=626&ext=jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.relogio {
+    letter-spacing: 8px;
+    font-size: 37px;
+    color: rgb(255, 255, 255)
+}
